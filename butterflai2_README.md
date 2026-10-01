@@ -1,7 +1,7 @@
 # 🦋 ButterflAI 2.0
 
 **Sunspot emergence as a spatiotemporal point process — classical and AI models**
-COFFIES Science Center · 8-Week Student Research Program
+COFFIES Science Center · 8-Week Student Research Program 
 
 ---
 
