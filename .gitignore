@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ── Environments ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+.envrc
+
+# ── Jupyter ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Editors / OS ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Training outputs (regenerate; never commit) ────────────────────────
+wandb/
+wandb_logs/
+lightning_logs/
+checkpoints/
+*.ckpt
+outputs/
+
+# ── Derived data (students regenerate from data/) ──────────────────────
+data/derived/
+
+# NOTE: unlike ButterflAI 1.0, this file does NOT blanket-ignore *.csv,
+# *.npz, *.json, *.txt or *.png. Blanket rules silently hid requirements.txt
+# and the data files in 1.0. Ignore specific folders instead.

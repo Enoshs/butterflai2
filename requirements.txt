@@ -1,0 +1,15 @@
+# ButterflAI 2.0 — pip dependencies installed by each notebook's setup cell.
+#
+# torch is pre-installed on Google Colab with GPU support and is deliberately NOT
+# listed here: reinstalling it on Colab downloads several GB and can replace the
+# CUDA build with a CPU one. Local users get torch from environment.yml.
+
+numpy
+pandas
+scipy
+matplotlib
+tqdm
+
+# Phase B (weeks 5-8): training loops and experiment tracking
+lightning
+wandb

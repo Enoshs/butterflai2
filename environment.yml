@@ -1,0 +1,20 @@
+# Local development environment for ButterflAI 2.0.
+# Colab does not use this file; notebooks install requirements.txt instead.
+name: butterflai2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+      - torch
+      - lightning
+      - wandb
